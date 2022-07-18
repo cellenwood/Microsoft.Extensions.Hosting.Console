@@ -1,14 +1,10 @@
-﻿using System.Threading.Tasks;
-using static System.Console;
+﻿namespace Example;
 
-namespace Example
+class MyHost
 {
-    class MyHost
+    public Task DoWork()
     {
-        public Task DoWork()
-        {
-            WriteLine("I started.");
-            return Task.CompletedTask;
-        }
+        Console.WriteLine("I started.");
+        return Task.CompletedTask;
     }
 }

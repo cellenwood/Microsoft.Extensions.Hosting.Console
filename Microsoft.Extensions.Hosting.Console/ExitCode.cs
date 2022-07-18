@@ -1,8 +1,7 @@
-﻿namespace Microsoft.Extensions.Hosting.Console
+﻿namespace Microsoft.Extensions.Hosting.Console;
+
+enum ExitCode
 {
-    enum ExitCode
-    {
-        Failure = -1,
-        Success = 0
-    }
+    Failure = -1,
+    Success = 0
 }

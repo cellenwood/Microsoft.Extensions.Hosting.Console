@@ -1,22 +1,19 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Threading.Tasks;
 
-namespace Microsoft.Extensions.Hosting.Console
+namespace Microsoft.Extensions.Hosting.Console;
+
+public static class ConsoleHostExtensions
 {
-    public static class ConsoleHostExtensions
+    public static async Task RunAsConsoleAsync<T>(this IHostBuilder builder, Action<T> action) where T : class
     {
-        public static async Task RunAsConsoleAsync<T>(this IHostBuilder builder, Action<T> action) where T : class
-        {
-            builder.ConfigureServices((hostContext, services) => services
-                .AddHostedService(services =>
-                {
-                    var startupObject = services.GetService<T>();
-                    var console = new ConsoleHost<T>(services.GetService<IHostApplicationLifetime>(), startupObject, action);
-                    return console;
-                }));
+        builder.ConfigureServices((hostContext, services) => services
+            .AddHostedService(services =>
+            {
+                var startupObject = services.GetRequiredService<T>();
+                var appLifetime = services.GetRequiredService<IHostApplicationLifetime>();
+                return new ConsoleHost<T>(appLifetime, startupObject, action);
+            }));
 
-            await builder.RunConsoleAsync();
-        }
+        await builder.RunConsoleAsync();
     }
 }

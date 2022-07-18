@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj": {}
+    "C:\\git\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj": {
+    "C:\\git\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj",
+        "projectUniqueName": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj",
         "projectName": "Example",
-        "projectPath": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj",
-        "packagesPath": "C:\\Users\\cme6132\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Example\\obj\\",
+        "projectPath": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Example\\Example.csproj",
+        "packagesPath": "C:\\Users\\aecel\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Example\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cme6132\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aecel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://sfgmembers.pkgs.visualstudio.com/_packaging/SammonsAnnuityGroup%40Local/nuget/v3/index.json": {},
-          "https://sfgmembers.pkgs.visualstudio.com/_packaging/eEnablement/nuget/v3/index.json": {},
-          "https://www.myget.org/F/applicationinsights-sdk-labs/": {}
+          "https://pkgs.dev.azure.com/AmericanEquityLife/AEL-Artifacts/_packaging/AEL-Artifacts/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj": {
-                "projectPath": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj"
+              "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj": {
+                "projectPath": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj"
               }
             }
           }
@@ -49,12 +42,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -72,41 +65,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj": {
+    "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj",
+        "projectUniqueName": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj",
         "projectName": "Microsoft.Extensions.Hosting.Console",
-        "projectPath": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj",
-        "packagesPath": "C:\\Users\\cme6132\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\PersonalProjects\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\obj\\",
+        "projectPath": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console.csproj",
+        "packagesPath": "C:\\Users\\aecel\\.nuget\\packages\\",
+        "outputPath": "C:\\git\\Microsoft.Extensions.Hosting.Console\\Microsoft.Extensions.Hosting.Console\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cme6132\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aecel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://sfgmembers.pkgs.visualstudio.com/_packaging/SammonsAnnuityGroup%40Local/nuget/v3/index.json": {},
-          "https://sfgmembers.pkgs.visualstudio.com/_packaging/eEnablement/nuget/v3/index.json": {},
-          "https://www.myget.org/F/applicationinsights-sdk-labs/": {}
+          "https://pkgs.dev.azure.com/AmericanEquityLife/AEL-Artifacts/_packaging/AEL-Artifacts/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -117,12 +103,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -140,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
